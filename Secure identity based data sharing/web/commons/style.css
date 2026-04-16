@@ -1,0 +1,128 @@
+@CHARSET "ISO-8859-1";
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	/* background-repeat: no-repeat; */
+	background-attachment: fixed;
+}
+
+form {
+	
+}
+.div{
+	margin-top: 10%;
+	width:90%;
+	text-align: center;
+	margin-left: 5%;
+}
+
+input[type=text], input[type=password] {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	margin-top:none;
+	background-color:rgba(0,0,0,0.5);
+	display: inline-block;
+	border-top: 0px solid #ccc;
+	border-left: 0px solid #ccc;
+	border-right: 0px solid #ccc;
+	border-bottom:1px solid white;
+	box-sizing: border-box;
+}
+
+#active {
+	background-color: gray;
+}
+
+button {
+	background-color: #008080;
+	color: white;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+
+button:hover {
+	opacity: 0.8;
+	background-color: #00CC99;
+}
+
+.cancelbtn {
+	width: auto;
+	padding: 10px 18px;
+	background-color: #f44336;
+}
+
+.imgcontainer {
+	text-align: center;
+	margin: 24px 0 12px 0;
+}
+
+img.avatar {
+	width: 40%;
+	border-radius: 50%;
+}
+
+.container {
+	padding: 16px;
+}
+
+span.psw {
+	float: right;
+	padding-top: 16px;
+}
+
+#field {
+	color: white;
+}
+
+/* Change styles for span and cancel button on extra small screens */
+@media screen and (max-width: 300px) {
+	span.psw {
+		display: block;
+		float: none;
+	}
+	.cancelbtn {
+		width: 100%;
+	}
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+	width: 100%;
+	background-color: #555;
+	
+}
+
+/* Navbar links */
+.navbar a {
+	float: right;
+	text-align: center;
+	padding: 12px;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Navbar links on mouse-over */
+.navbar a:hover {
+	background-color: #000;
+}
+
+/* Current/active navbar link */
+.active {
+	background-color: #4CAF50;
+}
+
+/* Add responsiveness - will automatically display the navbar vertically instead of horizontally on screens less than 500 pixels */
+@media screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+		display: block;
+	}
+}
